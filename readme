@@ -1,2 +1,14 @@
 
 https://medium.com/swlh/azure-pipelines-yaml-templates-194bd35e8aa6
+
+Features of Grafana:
+Open source
+Visualization using dynamic dashboard and filtering
+Create alerts when threshold crosses
+Explore Metrics and Logs
+Supports all DB
+Create multiple Panels which retrieves data from multiple sources (InfluxDB, Oracle, MySQL)
+
+Flow of Grafana:
+Telegraf (Script or Agent which Collects System Data i.e. OSMetrics from Server ) -> InfluxDB (Data Source) -> Grafana (Visualise Data)
+
